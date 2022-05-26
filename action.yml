@@ -1,0 +1,15 @@
+name: 'Create Release Tag'
+description: 'Create Release Tag'
+author: '[Your Name]'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+  PREFIX:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

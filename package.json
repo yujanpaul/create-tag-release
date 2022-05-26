@@ -1,0 +1,22 @@
+{
+  "name": "create-tag-release",
+  "version": "1.0.0",
+  "description": "Github action to create a tag and release",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yujanpaul@github.com/yujanpaul/create-tag-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujanpaul/create-tag-release/issues"
+  },
+  "homepage": "https://github.com/yujanpaul/create-tag-release#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
